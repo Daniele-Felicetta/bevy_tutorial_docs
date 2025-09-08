@@ -163,7 +163,7 @@ fn setup(
 
 Result:
 
-![Moonlight](tutorial/pic/moonlight.png)
+![Moonlight](/pic/moonlight.png)
 
 :arrow_right:  Next: [Sunlight](tutorial/sunlight.md)
 

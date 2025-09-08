@@ -76,7 +76,7 @@ fn setup(
 
 Result:
 
-![Point Light](tutorial/pic/point_light.png)
+![Point Light](/pic/point_light.png)
 
 :arrow_right:  Next: [Spot Light](tutorial/spot_light.md)
 

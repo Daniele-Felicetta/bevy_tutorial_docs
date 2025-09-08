@@ -82,15 +82,15 @@ fn polygon_rotates(
 
 When the app just started:
 
-![A Timer Running Repeatedly 1](tutorial/pic/a_timer_running_repeatedly_1.png)
+![A Timer Running Repeatedly 1](/pic/a_timer_running_repeatedly_1.png)
 
 After 0.5 seconds:
 
-![A Timer Running Repeatedly 2](tutorial/pic/a_timer_running_repeatedly_2.png)
+![A Timer Running Repeatedly 2](/pic/a_timer_running_repeatedly_2.png)
 
 After 1 second:
 
-![A Timer Running Repeatedly 3](tutorial/pic/a_timer_running_repeatedly_3.png)
+![A Timer Running Repeatedly 3](/pic/a_timer_running_repeatedly_3.png)
 
 :arrow_right:  Next: [Easing](tutorial/easing.md)
 

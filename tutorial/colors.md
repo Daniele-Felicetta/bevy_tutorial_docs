@@ -63,7 +63,7 @@ fn setup(
 
 Result:
 
-![Colors](tutorial/pic/colors.png)
+![Colors](/pic/colors.png)
 
 We use [Circle](https://docs.rs/bevy/latest/bevy/prelude/shape/struct.Circle.html) in the example.
 The method applies to other shapes.

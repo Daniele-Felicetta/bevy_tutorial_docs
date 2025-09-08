@@ -142,11 +142,11 @@ fn handle_keys(
 
 When the app just starts:
 
-![Keyboard Just Input 1](tutorial/pic/keyboard_just_input_1.png)
+![Keyboard Just Input 1](/pic/keyboard_just_input_1.png)
 
 When the key `space` just pressed at the first time:
 
-![Keyboard Just Input 2](tutorial/pic/keyboard_just_input_2.png)
+![Keyboard Just Input 2](/pic/keyboard_just_input_2.png)
 
 The color change happens at the moment when the key is just pressed, and will not take effect when we continue to hold the key `space` down.
 

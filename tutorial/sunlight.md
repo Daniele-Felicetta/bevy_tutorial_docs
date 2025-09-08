@@ -169,7 +169,7 @@ fn setup(
 
 Result:
 
-![Sunlight](tutorial/pic/sunlight.png)
+![Sunlight](/pic/sunlight.png)
 
 :arrow_right:  Next: [Skipping The White Window](tutorial/skipping_the_white_window.md)
 

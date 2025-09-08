@@ -89,7 +89,7 @@ fn setup(
 
 Result:
 
-![Directional Light](tutorial/pic/directional_light.png)
+![Directional Light](/pic/directional_light.png)
 
 :arrow_right:  Next: [Point Light](tutorial/point_light.md)
 

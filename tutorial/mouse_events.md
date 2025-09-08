@@ -80,7 +80,7 @@ fn handle_keys(
 
 Result:
 
-![Mouse Events](tutorial/pic/mouse_events.png)
+![Mouse Events](/pic/mouse_events.png)
 
 In addition to [CursorMoved](https://docs.rs/bevy/latest/bevy/window/struct.CursorMoved.html), there are other mouse-related [Event](https://docs.rs/bevy/latest/bevy/ecs/event/trait.Event.html)s that we can use along with [EventReader](https://docs.rs/bevy/latest/bevy/ecs/event/struct.EventReader.html) such as [MouseButtonInput](https://docs.rs/bevy/latest/bevy/input/mouse/struct.MouseButtonInput.html), [MouseMotion](https://docs.rs/bevy/latest/bevy/input/mouse/struct.MouseMotion.html), [MouseWheel](https://docs.rs/bevy/latest/bevy/input/mouse/struct.MouseWheel.html), etc.
 

@@ -74,7 +74,7 @@ The cube is centered at the origin.
 
 Result:
 
-![Camera Positions And Directions](tutorial/pic/camera_positions_and_directions.png)
+![Camera Positions And Directions](/pic/camera_positions_and_directions.png)
 
 :arrow_right:  Next: [Orthographic View](tutorial/orthographic_view.md)
 

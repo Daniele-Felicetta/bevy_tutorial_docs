@@ -20,7 +20,7 @@ The larger the value, the more it looks like a frosted glass (or more blurry).
 In the following example, we create three cubes.
 From the left to right, their [ior](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.ior) are `1`, `2` and `3` respectively.
 To make the difference obvious, we set all [specular_transmission](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.specular_transmission) and [thickness](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.thickness) to `1`.
-We also create an orange plane with a texture [board.png](tutorial/pic/board.png) and disable all shadows.
+We also create an orange plane with a texture [board.png](/pic/board.png) and disable all shadows.
 
 The full code is as follows:
 
@@ -124,7 +124,7 @@ fn setup(
 
 Result:
 
-![Index Of Refraction](tutorial/pic/index_of_refraction.png)
+![Index Of Refraction](/pic/index_of_refraction.png)
 
 :arrow_right:  Next: [Attenuation](tutorial/attenuation.md)
 

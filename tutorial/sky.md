@@ -173,7 +173,7 @@ fn setup(
 
 Result:
 
-![Sky](tutorial/pic/sky.png)
+![Sky](/pic/sky.png)
 
 :arrow_right:  Next: [Moonlight](tutorial/moonlight.md)
 

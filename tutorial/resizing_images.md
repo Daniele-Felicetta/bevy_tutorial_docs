@@ -51,7 +51,7 @@ fn change_image_size(mut sprites: Query<&mut Sprite>) {
 
 Result:
 
-![Resizing Images 1](tutorial/pic/resizing_images_1.png)
+![Resizing Images 1](/pic/resizing_images_1.png)
 
 Combined with the [Window](https://docs.rs/bevy/latest/bevy/window/struct.Window.html) component we introduced before, we can make the image to fit the window.
 In the following code, we make the image to fit the window height.
@@ -69,7 +69,7 @@ fn change_image_size(mut sprites: Query<&mut Sprite>, windows: Query<&Window>) {
 
 Result:
 
-![Resizing Images 2](tutorial/pic/resizing_images_2.png)
+![Resizing Images 2](/pic/resizing_images_2.png)
 
 :arrow_right:  Next: [Translation](tutorial/translation.md)
 

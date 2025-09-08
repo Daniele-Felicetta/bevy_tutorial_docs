@@ -20,9 +20,9 @@ The larger the value, the more the transparency.
 
 In the following example, we create three cubes.
 From the left to right, their [specular_transmission](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.specular_transmission) are `0`, `0.8` and `1` respectively.
-To see the transparency, we create an orange plane with a texture [board.png](tutorial/pic/board.png), which is shown below.
+To see the transparency, we create an orange plane with a texture [board.png](/pic/board.png), which is shown below.
 
-![Texture](tutorial/pic/board.png)
+![Texture](/pic/board.png)
 
 The full code is as follows:
 
@@ -121,7 +121,7 @@ fn setup(
 
 Result:
 
-![Specular Transmission](tutorial/pic/specular_transmission.png)
+![Specular Transmission](/pic/specular_transmission.png)
 
 :arrow_right:  Next: [Reflectance](tutorial/reflectance.md)
 

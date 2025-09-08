@@ -97,11 +97,11 @@ fn circle_scales(
 
 When the app started:
 
-![A Timer Running Once 1](tutorial/pic/a_timer_running_once_1.png)
+![A Timer Running Once 1](/pic/a_timer_running_once_1.png)
 
 After three seconds:
 
-![A Timer Running Once 2](tutorial/pic/a_timer_running_once_2.png)
+![A Timer Running Once 2](/pic/a_timer_running_once_2.png)
 
 :arrow_right:  Next: [A Timer Running Repeatedly](tutorial/a_timer_running_repeatedly.md)
 

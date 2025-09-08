@@ -35,7 +35,7 @@ The [new](https://docs.rs/bevy/latest/bevy/prelude/shape/struct.RegularPolygon.h
 
 Result:
 
-![Regular Polygons](tutorial/pic/regular_polygons.png)
+![Regular Polygons](/pic/regular_polygons.png)
 
 :arrow_right:  Next: [Shapes With Transformation](tutorial/shapes_with_transformation.md)
 

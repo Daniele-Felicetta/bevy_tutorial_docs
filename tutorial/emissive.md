@@ -110,7 +110,7 @@ fn setup(
 
 Result:
 
-![Emissive](tutorial/pic/emissive.png)
+![Emissive](/pic/emissive.png)
 
 :arrow_right:  Next: [Emissive Textures](tutorial/emissive_textures.md)
 

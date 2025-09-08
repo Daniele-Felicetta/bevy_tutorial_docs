@@ -68,7 +68,7 @@ fn setup(
 
 Result:
 
-![Textures](tutorial/pic/textures.png)
+![Textures](/pic/textures.png)
 
 We can see that the image is mapped automatically onto the shape.
 

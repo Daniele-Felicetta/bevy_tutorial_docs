@@ -121,11 +121,11 @@ fn remove_shape(mut commands: Commands, shapes: Query<Entity, With<Handle<ColorM
 
 When the key `left` is pressed:
 
-![Monitoring State Transition 1](tutorial/pic/monitoring_state_transition_1.png)
+![Monitoring State Transition 1](/pic/monitoring_state_transition_1.png)
 
 When the key `right` is pressed:
 
-![Monitoring State Transition 2](tutorial/pic/monitoring_state_transition_2.png)
+![Monitoring State Transition 2](/pic/monitoring_state_transition_2.png)
 
 By running the program, we can also see that the app enters the default state automatically.
 At the start of running the app, the circle is shown even if we have not pressed any keys.

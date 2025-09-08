@@ -126,7 +126,7 @@ fn setup(
 
 Result:
 
-![Base Colors](tutorial/pic/base_colors.png)
+![Base Colors](/pic/base_colors.png)
 
 :arrow_right:  Next: [Base Color Textures](tutorial/base_color_textures.md)
 

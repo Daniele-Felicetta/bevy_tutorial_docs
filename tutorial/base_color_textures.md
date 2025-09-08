@@ -111,7 +111,7 @@ fn setup(
 
 Result:
 
-![Base Color Textures](tutorial/pic/base_color_textures.png)
+![Base Color Textures](/pic/base_color_textures.png)
 
 :arrow_right:  Next: [Metallic](tutorial/metallic.md)
 

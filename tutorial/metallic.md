@@ -127,7 +127,7 @@ fn setup(
 
 Result:
 
-![Metallic](tutorial/pic/metallic.png)
+![Metallic](/pic/metallic.png)
 
 :arrow_right:  Next: [Perceptual Roughness](tutorial/perceptual_roughness.md)
 

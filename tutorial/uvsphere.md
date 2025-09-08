@@ -79,7 +79,7 @@ fn setup(
 
 Result:
 
-![UVSphere](tutorial/pic/uvsphere.png)
+![UVSphere](/pic/uvsphere.png)
 
 :arrow_right:  Next: [Icosphere](tutorial/icosphere.md)
 

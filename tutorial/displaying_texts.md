@@ -47,7 +47,7 @@ fn setup(mut commands: Commands) {
 
 Result:
 
-![Displaying Texts](tutorial/pic/displaying_texts.png)
+![Displaying Texts](/pic/displaying_texts.png)
 
 :arrow_right:  Next: [Font Styles](tutorial/font_styles.md)
 

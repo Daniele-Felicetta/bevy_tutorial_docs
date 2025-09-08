@@ -75,7 +75,7 @@ fn setup(
 
 Result:
 
-![Spot Light](tutorial/pic/spot_light.png)
+![Spot Light](/pic/spot_light.png)
 
 :arrow_right:  Next: [Light Colors](tutorial/light_colors.md)
 

@@ -19,6 +19,21 @@
     --search-highlight: #f17f0d;
   }
 
+  .content{
+    left:200px;
+  }
+@media screen and (max-width: 768px) {
+    body.close .content {
+        transform: translateX(200px);
+    }
+    
+    body.close .sidebar-toggle {
+        background-color: rgba(205, 84, 51, 0.251);
+        transition: 1s background-color;
+        width: 200px;
+        padding: 10px;
+    }
+  }
   /* Sidebar migliorata */
   .sidebar {
     background-color: var(--sidebar-bg-color) !important;
@@ -95,7 +110,10 @@
     color: var(--search-highlight);
     font-weight: bold;
   }
-
+  .sidebar{
+    width:200px;
+    font-size: smaller;
+  }
   /* Sidebar nav */
   .sidebar-nav {
     padding: 0;
@@ -115,17 +133,19 @@
   .sidebar-nav a {
     color: var(--sidebar-link-color) !important;
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 2px;
     display: block;
     transition: all 0.3s ease;
     position: relative;
     font-weight: 500;
   }
 
+
+
   .sidebar-nav a:hover {
     background-color: rgba(241, 127, 13, 0.1);
     color: var(--sidebar-link-hover) !important;
-    padding-left: 25px;
+    padding-left: 5px;
   }
 
   .sidebar-nav a:hover::before {
@@ -157,16 +177,16 @@
   /* Sottomenu annidati */
   .sidebar-nav ul ul {
     background-color: rgba(0, 0, 0, 0.1);
-    padding-left: 0;
+    padding-left:5px;
   }
 
   .sidebar-nav ul ul a {
-    padding-left: 40px;
+    padding-left: 10px;
     font-size: 0.95em;
   }
 
   .sidebar-nav ul ul ul a {
-    padding-left: 60px;
+    padding-left: 15px;
   }
 
   /* Icone */
@@ -178,26 +198,24 @@
     text-align: center;
   }
 
-  /* Toggle button per mobile */
-  .sidebar-toggle {
-    background-color: var(--sidebar-link-hover);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    bottom: 20px;
-    left: 20px;
-  }
-
   .sidebar-toggle span {
     background-color: white;
+  }
+  .sidebar-toggle{
+    width: 200px;
   }
 
   /* Stile per la sezione principale */
   .markdown-section {
     max-width: 900px;
-    padding: 30px 45px;
   }
 
+  @media only screen and (min-width: 1500px) {
+  .sidebar{
+    width:300px;
+    font-size: medium;
+  }
+}
   /* Stile per l'header */
   .markdown-section h1,
   .markdown-section h2,

@@ -132,7 +132,7 @@ fn setup(
 
 Result:
 
-![Perceptual Roughness](tutorial/pic/perceptual_roughness.png)
+![Perceptual Roughness](/pic/perceptual_roughness.png)
 
 :arrow_right:  Next: [Diffuse Transmission](tutorial/diffuse_transmission.md)
 

@@ -121,11 +121,11 @@ fn circle_to_right(mut circles: Query<&mut Transform, With<Handle<ColorMaterial>
 
 When the key `left` is pressed:
 
-![Changing States 1](tutorial/pic/changing_states_1.png)
+![Changing States 1](/pic/changing_states_1.png)
 
 When the key `right` is pressed:
 
-![Changing States 2](tutorial/pic/changing_states_2.png)
+![Changing States 2](/pic/changing_states_2.png)
 
 :arrow_right:  Next: [Monitoring State Transition](tutorial/monitoring_state_transition.md)
 

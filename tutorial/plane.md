@@ -62,7 +62,7 @@ fn setup(
 
 Result:
 
-![Plane](tutorial/pic/plane.png)
+![Plane](/pic/plane.png)
 
 :arrow_right:  Next: [3D Transformation](tutorial/3d_transformation.md)
 

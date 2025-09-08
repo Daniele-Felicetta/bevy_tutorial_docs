@@ -82,7 +82,7 @@ fn setup(
 
 Result:
 
-![Icosphere](tutorial/pic/icosphere.png)
+![Icosphere](/pic/icosphere.png)
 
 :arrow_right:  Next: [Cylinder](tutorial/cylinder.md)
 

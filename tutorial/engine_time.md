@@ -19,7 +19,7 @@ The method [elapsed_seconds()](https://docs.rs/bevy/latest/bevy/time/struct.Time
 
 Result:
 
-![Engine Time](tutorial/pic/engine_time.png)
+![Engine Time](/pic/engine_time.png)
 
 We can use the method [elapsed()](https://docs.rs/bevy/latest/bevy/time/struct.Time.html#method.elapsed) to customize the unit of the elapsed time.
 

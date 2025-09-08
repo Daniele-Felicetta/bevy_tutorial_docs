@@ -116,7 +116,7 @@ fn setup(
 
 Result:
 
-![Emissive Textures](tutorial/pic/emissive_textures.png)
+![Emissive Textures](/pic/emissive_textures.png)
 
 :arrow_right:  Next: [Alpha Mode](tutorial/alpha_mode.md)
 

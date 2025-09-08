@@ -101,7 +101,7 @@ fn setup(
 
 Result:
 
-![Shadow](tutorial/pic/shadow.png)
+![Shadow](/pic/shadow.png)
 
 :arrow_right:  Next: [Base Colors](tutorial/base_colors.md)
 

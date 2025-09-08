@@ -31,7 +31,7 @@ The [default](https://docs.rs/bevy/latest/bevy/utils/fn.default.html) function i
 
 Result:
 
-![Initializing A Different Window](tutorial/pic/initializing_a_different_window.png)
+![Initializing A Different Window](/pic/initializing_a_different_window.png)
 
 :arrow_right:  Next: [Changing The Window After Initialization](tutorial/changing_the_window_after_initialization.md)
 

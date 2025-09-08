@@ -2,11 +2,11 @@
 
 The default [Camera3dBundle](https://docs.rs/bevy/latest/bevy/core_pipeline/core_3d/struct.Camera3dBundle.html) has a property that objects near the camera are larger and objects far away from the camera are smaller.
 
-![Orthographic View 1](tutorial/pic/orthographic_view_1.png)
+![Orthographic View 1](/pic/orthographic_view_1.png)
 
 This may not be wanted for some engineering problems, which require objects with the same size look the same no matter the distances between them and the camera.
 
-![Orthographic View 2](tutorial/pic/orthographic_view_2.png)
+![Orthographic View 2](/pic/orthographic_view_2.png)
 
 This can be done by modifying the [projection](https://docs.rs/bevy/latest/bevy/core_pipeline/core_3d/struct.Camera3dBundle.html#structfield.projection) of [Camera3dBundle](https://docs.rs/bevy/latest/bevy/core_pipeline/core_3d/struct.Camera3dBundle.html).
 
@@ -79,7 +79,7 @@ The result is shown by the second picture above.
 
 If we use the default [ScalingMode](https://docs.rs/bevy/latest/bevy/render/camera/enum.ScalingMode.html), the scene will be very small, since one unit in the 3D space maps to 1 unit in the window.
 
-![Orthographic View 3](tutorial/pic/orthographic_view_3.png)
+![Orthographic View 3](/pic/orthographic_view_3.png)
 
 The cube becomes a small white point at the center of the window.
 

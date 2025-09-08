@@ -54,7 +54,7 @@ fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
 
 Result:
 
-![Translation](tutorial/pic/translation.png)
+![Translation](/pic/translation.png)
 
 :arrow_right:  Next: [Rotation](tutorial/rotation.md)
 

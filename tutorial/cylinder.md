@@ -79,7 +79,7 @@ fn setup(
 
 Result:
 
-![Cylinder](tutorial/pic/cylinder.png)
+![Cylinder](/pic/cylinder.png)
 
 :arrow_right:  Next: [Capsule](tutorial/capsule.md)
 

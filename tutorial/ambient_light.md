@@ -67,7 +67,7 @@ fn setup(
 
 Result:
 
-![Ambient Light](tutorial/pic/ambient_light.png)
+![Ambient Light](/pic/ambient_light.png)
 
 :arrow_right:  Next: [Directional Light](tutorial/directional_light.md)
 

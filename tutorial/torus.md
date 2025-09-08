@@ -79,7 +79,7 @@ fn setup(
 
 Result:
 
-![Torus](tutorial/pic/torus.png)
+![Torus](/pic/torus.png)
 
 :arrow_right:  Next: [Plane](tutorial/plane.md)
 

@@ -123,11 +123,11 @@ fn handle_keys(
 
 When the app just starts:
 
-![Keyboard Events 1](tutorial/pic/keyboard_just_input_1.png)
+![Keyboard Events 1](/pic/keyboard_just_input_1.png)
 
 After the key `space` pressed at the first time:
 
-![Keyboard Events 2](tutorial/pic/keyboard_just_input_2.png)
+![Keyboard Events 2](/pic/keyboard_just_input_2.png)
 
 In the code, we print a string in the loop of `events.read()`.
 We can see (in the console) that the loop is not executed if there is no key touched.

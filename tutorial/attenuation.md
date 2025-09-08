@@ -24,7 +24,7 @@ In the following example, we create three cubes.
 From the left to right, their [attenuation_distance](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.attenuation_distance) are `infinity`, `1` and `0.1` respectively.
 All [attenuation_color](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.attenuation_color)s are black, which means all light should be absorbed after the [attenuation_distance](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.attenuation_distance).
 To make the difference obvious, we set all [specular_transmission](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.specular_transmission) and [thickness](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.thickness) to `1`.
-We also create an orange plane with a texture [board.png](tutorial/pic/board.png) and disable all shadows.
+We also create an orange plane with a texture [board.png](/pic/board.png) and disable all shadows.
 
 The full code is as follows:
 
@@ -131,7 +131,7 @@ fn setup(
 
 Result:
 
-![Attenuation](tutorial/pic/attenuation.png)
+![Attenuation](/pic/attenuation.png)
 
 :arrow_right:  Next: [Emissive](tutorial/emissive.md)
 

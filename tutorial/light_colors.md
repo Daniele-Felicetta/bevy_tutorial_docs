@@ -122,7 +122,7 @@ fn setup(
 
 Result:
 
-![Light Colors](tutorial/pic/light_colors.png)
+![Light Colors](/pic/light_colors.png)
 
 :arrow_right:  Next: [Light Intensity](tutorial/light_intensity.md)
 

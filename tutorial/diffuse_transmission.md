@@ -129,7 +129,7 @@ fn setup(
 
 Result:
 
-![Diffuse Transmission](tutorial/pic/diffuse_transmission.png)
+![Diffuse Transmission](/pic/diffuse_transmission.png)
 
 :arrow_right:  Next: [Specular Transmission](tutorial/specular_transmission.md)
 

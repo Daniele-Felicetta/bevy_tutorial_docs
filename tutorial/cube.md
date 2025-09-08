@@ -72,7 +72,7 @@ Currently, we omit the explanation of `StandardMaterial` and `PointLightBundle`.
 They will be explained later.
 Basically, we make the cube visible by the camera.
 
-![Cube](tutorial/pic/cube.png)
+![Cube](/pic/cube.png)
 
 :arrow_right:  Next: [Box](tutorial/box.md)
 

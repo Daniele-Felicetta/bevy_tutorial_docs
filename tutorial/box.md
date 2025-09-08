@@ -63,7 +63,7 @@ fn setup(
 
 Result:
 
-![Box](tutorial/pic/box.png)
+![Box](/pic/box.png)
 
 :arrow_right:  Next: [UVSphere](tutorial/uvsphere.md)
 

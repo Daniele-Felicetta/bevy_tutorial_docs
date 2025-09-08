@@ -112,11 +112,11 @@ fn handle_keys(
 
 When the app just starts:
 
-![Keyboard Input 1](tutorial/pic/keyboard_input_1.png)
+![Keyboard Input 1](/pic/keyboard_input_1.png)
 
 After the key `right` pressed for a while:
 
-![Keyboard Input 2](tutorial/pic/keyboard_input_2.png)
+![Keyboard Input 2](/pic/keyboard_input_2.png)
 
 The resource [Input](https://docs.rs/bevy/0.12.1/bevy/input/struct.Input.html)<[KeyCode](https://docs.rs/bevy/latest/bevy/input/keyboard/enum.KeyCode.html)> also monitors modifier keys such as [ShiftLeft](https://docs.rs/bevy/latest/bevy/input/keyboard/enum.KeyCode.html#variant.ShiftLeft), [ShiftRight](https://docs.rs/bevy/latest/bevy/input/keyboard/enum.KeyCode.html#variant.ShiftRight), [ControlLeft](https://docs.rs/bevy/latest/bevy/input/keyboard/enum.KeyCode.html#variant.ControlLeft), [ControlRight](https://docs.rs/bevy/latest/bevy/input/keyboard/enum.KeyCode.html#variant.ControlRight), etc.
 

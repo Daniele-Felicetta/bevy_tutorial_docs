@@ -121,7 +121,7 @@ fn setup(
 
 Result:
 
-![Alpha Mode](tutorial/pic/alpha_mode.png)
+![Alpha Mode](/pic/alpha_mode.png)
 
 We can see from the shadow of the right sphere that the sphere is indeed transparent.
 

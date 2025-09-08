@@ -28,7 +28,7 @@ We change the mouse icon by specifying `window.cursor.icon`.
 
 Result:
 
-![Mouse Icon](tutorial/pic/mouse_icon.png)
+![Mouse Icon](/pic/mouse_icon.png)
 
 :arrow_right:  Next: [Engine Time](tutorial/engine_time.md)
 
