@@ -52,6 +52,6 @@ Then we can use the [init_resource](https://docs.rs/bevy/latest/bevy/app/struct.
 init_resource::<MyResource>()
 ```
 
-:arrow_right:  Next: [Updating Resources](./updating_resources.md)
+:arrow_right:  Next: [Updating Resources](tutorial/updating_resources.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

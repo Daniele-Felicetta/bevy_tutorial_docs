@@ -163,8 +163,8 @@ fn setup(
 
 Result:
 
-![Moonlight](./pic/moonlight.png)
+![Moonlight](tutorial/pic/moonlight.png)
 
-:arrow_right:  Next: [Sunlight](./sunlight.md)
+:arrow_right:  Next: [Sunlight](tutorial/sunlight.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

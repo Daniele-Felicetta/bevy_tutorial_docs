@@ -58,8 +58,8 @@ fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
 
 Result:
 
-![Displaying Images](./pic/displaying_images.png)
+![Displaying Images](pic/displaying_images.png)
 
-:arrow_right:  Next: [Obtaining Sizes Of Images](./obtaining_sizes_of_images.md)
+:arrow_right:  Next: [Obtaining Sizes Of Images](tutorial/obtaining_sizes_of_images.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

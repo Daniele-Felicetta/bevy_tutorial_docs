@@ -122,8 +122,8 @@ fn setup(
 
 Result:
 
-![Light Colors](./pic/light_colors.png)
+![Light Colors](tutorial/pic/light_colors.png)
 
-:arrow_right:  Next: [Light Intensity](./light_intensity.md)
+:arrow_right:  Next: [Light Intensity](tutorial/light_intensity.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

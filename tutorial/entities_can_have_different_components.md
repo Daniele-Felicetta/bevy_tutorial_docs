@@ -109,6 +109,6 @@ To get the same result, we can also use `Query<(&Name, &HP, &Mp)>` instead of `Q
 
 Adding unique components helps us having basic filtering of the entities.
 
-:arrow_right:  Next: [Bundles Help Us Grouping Components Together](./bundles_help_us_grouping_components_together.md)
+:arrow_right:  Next: [Bundles Help Us Grouping Components Together](tutorial/bundles_help_us_grouping_components_together.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

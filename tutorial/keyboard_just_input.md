@@ -142,17 +142,17 @@ fn handle_keys(
 
 When the app just starts:
 
-![Keyboard Just Input 1](./pic/keyboard_just_input_1.png)
+![Keyboard Just Input 1](tutorial/pic/keyboard_just_input_1.png)
 
 When the key `space` just pressed at the first time:
 
-![Keyboard Just Input 2](./pic/keyboard_just_input_2.png)
+![Keyboard Just Input 2](tutorial/pic/keyboard_just_input_2.png)
 
 The color change happens at the moment when the key is just pressed, and will not take effect when we continue to hold the key `space` down.
 
 If we want to monitor the moment when a key is just released, we can use the method [just_released](https://docs.rs/bevy/0.12.1/bevy/input/struct.Input.html#method.just_released).
 The usage is the same as [just_pressed](https://docs.rs/bevy/0.12.1/bevy/input/struct.Input.html#method.just_pressed).
 
-:arrow_right:  Next: [Keyboard Events](./keyboard_events.md)
+:arrow_right:  Next: [Keyboard Events](tutorial/keyboard_events.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

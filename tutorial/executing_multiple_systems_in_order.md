@@ -66,6 +66,6 @@ Hello A!
 Hello B!
 ```
 
-:arrow_right:  Next: [Executing Multiple Systems Set By Set](./executing_multiple_systems_set_by_set.md)
+:arrow_right:  Next: [Executing Multiple Systems Set By Set](tutorial/executing_multiple_systems_set_by_set.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

@@ -129,18 +129,18 @@ fn handle_mouse(
 
 When the app just started:
 
-![Mouse Input 1](./pic/mouse_input_1.png)
+![Mouse Input 1](tutorial/pic/mouse_input_1.png)
 
 After the left mouse button pressed for a while:
 
-![Mouse Input 2](./pic/mouse_input_2.png)
+![Mouse Input 2](tutorial/pic/mouse_input_2.png)
 
 After the right mouse button just pressed at the first time:
 
-![Mouse Input 3](./pic/mouse_input_3.png)
+![Mouse Input 3](tutorial/pic/mouse_input_3.png)
 
 We can use the method [just_released](https://docs.rs/bevy/0.12.1/bevy/input/struct.Input.html#method.just_released) to monitor the released state of a mouse button.
 
-:arrow_right:  Next: [Mouse Events](./mouse_events.md)
+:arrow_right:  Next: [Mouse Events](tutorial/mouse_events.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

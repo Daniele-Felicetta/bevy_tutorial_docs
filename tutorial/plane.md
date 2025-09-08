@@ -62,8 +62,8 @@ fn setup(
 
 Result:
 
-![Plane](./pic/plane.png)
+![Plane](tutorial/pic/plane.png)
 
-:arrow_right:  Next: [3D Transformation](./3d_transformation.md)
+:arrow_right:  Next: [3D Transformation](tutorial/3d_transformation.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

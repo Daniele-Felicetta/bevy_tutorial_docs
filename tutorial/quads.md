@@ -36,8 +36,8 @@ The function [Quad::new](https://docs.rs/bevy/latest/bevy/prelude/shape/struct.Q
 
 Result:
 
-![Quads](./pic/quads.png)
+![Quads](tutorial/pic/quads.png)
 
-:arrow_right:  Next: [Regular Polygons](./regular_polygons.md)
+:arrow_right:  Next: [Regular Polygons](tutorial/regular_polygons.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

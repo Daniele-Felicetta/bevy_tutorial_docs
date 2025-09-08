@@ -132,8 +132,8 @@ fn setup(
 
 Result:
 
-![Perceptual Roughness](./pic/perceptual_roughness.png)
+![Perceptual Roughness](tutorial/pic/perceptual_roughness.png)
 
-:arrow_right:  Next: [Diffuse Transmission](./diffuse_transmission.md)
+:arrow_right:  Next: [Diffuse Transmission](tutorial/diffuse_transmission.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

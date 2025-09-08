@@ -169,8 +169,8 @@ fn setup(
 
 Result:
 
-![Sunlight](./pic/sunlight.png)
+![Sunlight](tutorial/pic/sunlight.png)
 
-:arrow_right:  Next: [Skipping The White Window](./skipping_the_white_window.md)
+:arrow_right:  Next: [Skipping The White Window](tutorial/skipping_the_white_window.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

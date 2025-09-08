@@ -89,8 +89,8 @@ fn setup(
 
 Result:
 
-![Directional Light](./pic/directional_light.png)
+![Directional Light](tutorial/pic/directional_light.png)
 
-:arrow_right:  Next: [Point Light](./point_light.md)
+:arrow_right:  Next: [Point Light](tutorial/point_light.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

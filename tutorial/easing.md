@@ -168,6 +168,6 @@ transform.translation = my_curve.0.position(t);
 // ...
 ```
 
-:arrow_right:  Next: [Triggering An Event](./triggering_an_event.md)
+:arrow_right:  Next: [Triggering An Event](tutorial/triggering_an_event.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

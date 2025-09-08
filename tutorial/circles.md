@@ -53,8 +53,8 @@ fn setup(mut commands: Commands, mut meshes: ResMut<Assets<Mesh>>) {
 
 Result:
 
-![Circles](./pic/circles.png)
+![Circles](tutorial/pic/circles.png)
 
-:arrow_right:  Next: [Quads](./quads.md)
+:arrow_right:  Next: [Quads](tutorial/quads.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

@@ -79,8 +79,8 @@ fn setup(
 
 Result:
 
-![Torus](./pic/torus.png)
+![Torus](tutorial/pic/torus.png)
 
-:arrow_right:  Next: [Plane](./plane.md)
+:arrow_right:  Next: [Plane](tutorial/plane.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

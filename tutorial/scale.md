@@ -54,8 +54,8 @@ fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
 
 Result:
 
-![Scale](./pic/scale.png)
+![Scale](tutorial/pic/scale.png)
 
-:arrow_right:  Next: [Combining Multiple Transformation](./combining_multiple_transformation.md)
+:arrow_right:  Next: [Combining Multiple Transformation](tutorial/combining_multiple_transformation.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

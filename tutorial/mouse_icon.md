@@ -28,8 +28,8 @@ We change the mouse icon by specifying `window.cursor.icon`.
 
 Result:
 
-![Mouse Icon](./pic/mouse_icon.png)
+![Mouse Icon](tutorial/pic/mouse_icon.png)
 
-:arrow_right:  Next: [Engine Time](./engine_time.md)
+:arrow_right:  Next: [Engine Time](tutorial/engine_time.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

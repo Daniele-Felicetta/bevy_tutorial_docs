@@ -1,0 +1,219 @@
+  :root {
+    --sidebar-width: 320px;
+    --sidebar-bg-color: #2d3748;
+    --sidebar-header-bg: #1a202c;
+    --sidebar-link-color: #e2e8f0;
+    --sidebar-link-hover: #f17f0d;
+    --sidebar-border-color: #4a5568;
+    --search-highlight: #f17f0d;
+  }
+
+  /* Sidebar migliorata */
+  .sidebar {
+    background-color: var(--sidebar-bg-color) !important;
+    border-right: 1px solid var(--sidebar-border-color);
+    padding-top: 0;
+  }
+
+  /* Header della sidebar */
+  .app-name {
+    padding: 20px;
+    margin: 0;
+    background-color: var(--sidebar-header-bg);
+    text-align: center;
+    border-bottom: 1px solid var(--sidebar-border-color);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .app-name-link {
+    color: #fff !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  /* Stile per la ricerca */
+  .search {
+    padding: 15px 20px;
+    background-color: var(--sidebar-header-bg);
+    border-bottom: 1px solid var(--sidebar-border-color);
+    position: sticky;
+    top: 80px;
+    z-index: 10;
+  }
+
+  .search input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid var(--sidebar-border-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+  .search input::placeholder {
+    color: #a0aec0;
+  }
+
+  /* Risultati di ricerca */
+  .search-results {
+    padding: 10px 0;
+  }
+
+  .search-results .search-result-item {
+    padding: 8px 20px 8px 40px;
+    color: var(--sidebar-link-color);
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+  }
+
+  .search-results .search-result-item:hover {
+    color: var(--sidebar-link-hover);
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .search-results .search-result-item::before {
+    content: "🔍";
+    position: absolute;
+    left: 20px;
+  }
+
+  .search-results .search-result-highlight {
+    color: var(--search-highlight);
+    font-weight: bold;
+  }
+
+  /* Sidebar nav */
+  .sidebar-nav {
+    padding: 0;
+  }
+
+  .sidebar-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .sidebar-nav li {
+    margin: 0;
+    border-bottom: 1px solid var(--sidebar-border-color);
+  }
+
+  .sidebar-nav a {
+    color: var(--sidebar-link-color) !important;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+    transition: all 0.3s ease;
+    position: relative;
+    font-weight: 500;
+  }
+
+  .sidebar-nav a:hover {
+    background-color: rgba(241, 127, 13, 0.1);
+    color: var(--sidebar-link-hover) !important;
+    padding-left: 25px;
+  }
+
+  .sidebar-nav a:hover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--sidebar-link-hover);
+  }
+
+  .sidebar-nav a.active {
+    background-color: rgba(241, 127, 13, 0.15);
+    color: var(--sidebar-link-hover) !important;
+    font-weight: 600;
+  }
+
+  .sidebar-nav a.active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--sidebar-link-hover);
+  }
+
+  /* Sottomenu annidati */
+  .sidebar-nav ul ul {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 0;
+  }
+
+  .sidebar-nav ul ul a {
+    padding-left: 40px;
+    font-size: 0.95em;
+  }
+
+  .sidebar-nav ul ul ul a {
+    padding-left: 60px;
+  }
+
+  /* Icone */
+  .sidebar-nav a[data-icon]::before {
+    margin-right: 10px;
+    font-style: normal;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+  }
+
+  /* Toggle button per mobile */
+  .sidebar-toggle {
+    background-color: var(--sidebar-link-hover);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .sidebar-toggle span {
+    background-color: white;
+  }
+
+  /* Stile per la sezione principale */
+  .markdown-section {
+    max-width: 900px;
+    padding: 30px 45px;
+  }
+
+  /* Stile per l'header */
+  .markdown-section h1,
+  .markdown-section h2,
+  .markdown-section h3 {
+    border-bottom: 1px solid var(--sidebar-border-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  /* Transizione per i risultati di ricerca */
+  .search-results {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .search-results.active {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  /* Scrollbar personalizzata */
+  .search-results.active::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .search-results.active::-webkit-scrollbar-thumb {
+    background-color: var(--sidebar-link-hover);
+    border-radius: 3px;
+  }

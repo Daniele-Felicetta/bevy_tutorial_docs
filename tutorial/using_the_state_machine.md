@@ -68,6 +68,6 @@ In MainState
 
 In the next tutorial, we will show how to manipulate states.
 
-:arrow_right:  Next: [Changing States](./changing_states.md)
+:arrow_right:  Next: [Changing States](tutorial/changing_states.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

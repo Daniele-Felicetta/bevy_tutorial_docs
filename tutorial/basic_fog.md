@@ -146,8 +146,8 @@ fn setup(
 
 Result:
 
-![Basic Fog](./pic/basic_fog.png)
+![Basic Fog](tutorial/pic/basic_fog.png)
 
-:arrow_right:  Next: [Sky](./sky.md)
+:arrow_right:  Next: [Sky](tutorial/sky.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

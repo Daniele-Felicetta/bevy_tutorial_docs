@@ -19,7 +19,7 @@ The larger the value, the more the reflection.
 
 In the following example, we create three cubes.
 From the left to right, their [reflectance](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.reflectance) are `0`, `0.5` and `1` respectively.
-To make the difference obvious, we set all [specular_transmission](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.specular_transmission) to `1` and we create an orange plane with a texture [board.png](./pic/board.png).
+To make the difference obvious, we set all [specular_transmission](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.specular_transmission) to `1` and we create an orange plane with a texture [board.png](tutorial/pic/board.png).
 
 The full code is as follows:
 
@@ -121,8 +121,8 @@ fn setup(
 
 Result:
 
-![Reflectance](./pic/reflectance.png)
+![Reflectance](tutorial/pic/reflectance.png)
 
-:arrow_right:  Next: [Thickness](./thickness.md)
+:arrow_right:  Next: [Thickness](tutorial/thickness.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

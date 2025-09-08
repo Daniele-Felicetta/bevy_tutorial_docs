@@ -68,10 +68,10 @@ fn setup(
 
 Result:
 
-![Textures](./pic/textures.png)
+![Textures](tutorial/pic/textures.png)
 
 We can see that the image is mapped automatically onto the shape.
 
-:arrow_right:  Next: [Animated Transformation](./animated_transformation.md)
+:arrow_right:  Next: [Animated Transformation](tutorial/animated_transformation.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

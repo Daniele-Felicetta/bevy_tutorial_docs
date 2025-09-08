@@ -29,12 +29,12 @@ The methods add the given [Resource](https://docs.rs/bevy/latest/bevy/ecs/system
 
 When running in default setting ([WinitSettings::game()](https://docs.rs/bevy/latest/bevy/winit/struct.WinitSettings.html#method.game)), the CPU usage would be:
 
-![Low-Power Windows 1](./pic/low_power_windows_1.png)
+![Low-Power Windows 1](tutorial/pic/low_power_windows_1.png)
 
 When running in [WinitSettings::desktop_app()](https://docs.rs/bevy/latest/bevy/winit/struct.WinitSettings.html#method.desktop_app), the CPU usage would be:
 
-![Low-Power Windows 2](./pic/low_power_windows_2.png)
+![Low-Power Windows 2](tutorial/pic/low_power_windows_2.png)
 
-:arrow_right:  Next: [Closing The Window On Esc Pressed](./closing_the_window_on_esc_pressed.md)
+:arrow_right:  Next: [Closing The Window On Esc Pressed](tutorial/closing_the_window_on_esc_pressed.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

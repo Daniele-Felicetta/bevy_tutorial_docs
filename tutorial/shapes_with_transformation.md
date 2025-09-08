@@ -42,8 +42,8 @@ fn setup(mut commands: Commands, mut meshes: ResMut<Assets<Mesh>>) {
 
 Result:
 
-![Shapes With Transformation](./pic/shapes_with_transformation.png)
+![Shapes With Transformation](tutorial/pic/shapes_with_transformation.png)
 
-:arrow_right:  Next: [Colors](./colors.md)
+:arrow_right:  Next: [Colors](tutorial/colors.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

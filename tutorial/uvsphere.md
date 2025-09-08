@@ -79,8 +79,8 @@ fn setup(
 
 Result:
 
-![UVSphere](./pic/uvsphere.png)
+![UVSphere](tutorial/pic/uvsphere.png)
 
-:arrow_right:  Next: [Icosphere](./icosphere.md)
+:arrow_right:  Next: [Icosphere](tutorial/icosphere.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

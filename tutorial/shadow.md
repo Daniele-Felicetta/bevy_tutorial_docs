@@ -101,8 +101,8 @@ fn setup(
 
 Result:
 
-![Shadow](./pic/shadow.png)
+![Shadow](tutorial/pic/shadow.png)
 
-:arrow_right:  Next: [Base Colors](./base_colors.md)
+:arrow_right:  Next: [Base Colors](tutorial/base_colors.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

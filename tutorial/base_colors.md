@@ -126,8 +126,8 @@ fn setup(
 
 Result:
 
-![Base Colors](./pic/base_colors.png)
+![Base Colors](tutorial/pic/base_colors.png)
 
-:arrow_right:  Next: [Base Color Textures](./base_color_textures.md)
+:arrow_right:  Next: [Base Color Textures](tutorial/base_color_textures.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

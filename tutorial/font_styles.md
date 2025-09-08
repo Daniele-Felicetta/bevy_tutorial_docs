@@ -65,7 +65,7 @@ fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
 
 Result:
 
-![Font Styles](./pic/font_styles_1.png)
+![Font Styles](tutorial/pic/font_styles_1.png)
 
 A text can have different styles for different substrings.
 To achieve this, instead of using [Text::from_section](https://docs.rs/bevy/latest/bevy/text/struct.Text.html#method.from_section), we use [Text::from_sections](https://docs.rs/bevy/latest/bevy/text/struct.Text.html#method.from_sections).
@@ -119,8 +119,8 @@ fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
 
 Result:
 
-![Font Styles 2](./pic/font_styles_2.png)
+![Font Styles 2](tutorial/pic/font_styles_2.png)
 
-:arrow_right:  Next: [Text Positions](./text_positions.md)
+:arrow_right:  Next: [Text Positions](tutorial/text_positions.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

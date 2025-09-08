@@ -63,8 +63,8 @@ fn setup(
 
 Result:
 
-![Box](./pic/box.png)
+![Box](tutorial/pic/box.png)
 
-:arrow_right:  Next: [UVSphere](./uvsphere.md)
+:arrow_right:  Next: [UVSphere](tutorial/uvsphere.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

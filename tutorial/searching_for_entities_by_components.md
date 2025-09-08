@@ -105,6 +105,6 @@ Name: Soldier 3, HP: 150
 
 ```
 
-:arrow_right:  Next: [Entities Can Have Different Components](./entities_can_have_different_components.md)
+:arrow_right:  Next: [Entities Can Have Different Components](tutorial/entities_can_have_different_components.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

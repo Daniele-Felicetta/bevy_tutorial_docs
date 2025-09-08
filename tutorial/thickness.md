@@ -20,7 +20,7 @@ To turn on this feature, we give it a non-zero value.
 In the following example, we create two cubes.
 The left cube has [thickness](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.thickness) `0` and the right one has `1`.
 To make the difference obvious, we set all [specular_transmission](https://docs.rs/bevy/latest/bevy/pbr/struct.StandardMaterial.html#structfield.specular_transmission) to 1.
-We also create an orange plane with a texture [board.png](./pic/board.png) and disable all shadows.
+We also create an orange plane with a texture [board.png](tutorial/pic/board.png) and disable all shadows.
 
 The full code is as follows:
 
@@ -109,8 +109,8 @@ fn setup(
 
 Result:
 
-![Thickness](./pic/thickness.png)
+![Thickness](tutorial/pic/thickness.png)
 
-:arrow_right:  Next: [Index Of Refraction](./index_of_refraction.md)
+:arrow_right:  Next: [Index Of Refraction](tutorial/index_of_refraction.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

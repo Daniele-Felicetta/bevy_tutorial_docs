@@ -79,8 +79,8 @@ fn setup(
 
 Result:
 
-![Cylinder](./pic/cylinder.png)
+![Cylinder](tutorial/pic/cylinder.png)
 
-:arrow_right:  Next: [Capsule](./capsule.md)
+:arrow_right:  Next: [Capsule](tutorial/capsule.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

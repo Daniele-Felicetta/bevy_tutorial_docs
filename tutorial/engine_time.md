@@ -19,10 +19,10 @@ The method [elapsed_seconds()](https://docs.rs/bevy/latest/bevy/time/struct.Time
 
 Result:
 
-![Engine Time](./pic/engine_time.png)
+![Engine Time](tutorial/pic/engine_time.png)
 
 We can use the method [elapsed()](https://docs.rs/bevy/latest/bevy/time/struct.Time.html#method.elapsed) to customize the unit of the elapsed time.
 
-:arrow_right:  Next: [A Timer Running Once](./a_timer_running_once.md)
+:arrow_right:  Next: [A Timer Running Once](tutorial/a_timer_running_once.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

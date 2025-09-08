@@ -43,6 +43,6 @@ Output:
 11
 ```
 
-:arrow_right:  Next: [Removing Resources](./removing_resources.md)
+:arrow_right:  Next: [Removing Resources](tutorial/removing_resources.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

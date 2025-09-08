@@ -110,8 +110,8 @@ fn setup(
 
 Result:
 
-![Emissive](./pic/emissive.png)
+![Emissive](tutorial/pic/emissive.png)
 
-:arrow_right:  Next: [Emissive Textures](./emissive_textures.md)
+:arrow_right:  Next: [Emissive Textures](tutorial/emissive_textures.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

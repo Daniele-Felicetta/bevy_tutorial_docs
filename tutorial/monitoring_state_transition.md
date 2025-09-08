@@ -121,11 +121,11 @@ fn remove_shape(mut commands: Commands, shapes: Query<Entity, With<Handle<ColorM
 
 When the key `left` is pressed:
 
-![Monitoring State Transition 1](./pic/monitoring_state_transition_1.png)
+![Monitoring State Transition 1](tutorial/pic/monitoring_state_transition_1.png)
 
 When the key `right` is pressed:
 
-![Monitoring State Transition 2](./pic/monitoring_state_transition_2.png)
+![Monitoring State Transition 2](tutorial/pic/monitoring_state_transition_2.png)
 
 By running the program, we can also see that the app enters the default state automatically.
 At the start of running the app, the circle is shown even if we have not pressed any keys.
@@ -133,6 +133,6 @@ At the start of running the app, the circle is shown even if we have not pressed
 In addition to the two schedule labels, we can use [OnTransition](https://docs.rs/bevy/latest/bevy/ecs/schedule/struct.OnTransition.html) to specify the exiting state and the entering state.
 The corresponding system will only be executed on the specified state transition.
 
-:arrow_right:  Next: [Running A System Only Once](./running_a_system_only_once.md)
+:arrow_right:  Next: [Running A System Only Once](tutorial/running_a_system_only_once.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

@@ -5,7 +5,7 @@ This white window remains for a longer time if we have a 3D scene.
 We can play a trick and skip (or hide) the white window.
 
 First, we hide the window.
-(See [Initializing A Different Window](./initializing_a_different_window.md) for how to change window.)
+(See [Initializing A Different Window](tutorial/initializing_a_different_window.md) for how to change window.)
 We set the visible of the window to `false`.
 
 ```rust
@@ -66,4 +66,4 @@ By running the program, we can see that everything is ready when the window appe
 
 <!-- :arrow_right:  Next:  -->
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

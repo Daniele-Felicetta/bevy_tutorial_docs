@@ -2,7 +2,7 @@
 
 [System](https://docs.rs/bevy/latest/bevy/ecs/system/trait.System.html)s are important in the [Bevy](https://bevyengine.org/) engine.
 When our project is getting larger and larger, we may need to add many systems.
-For example, in our tutorial for [The Default Scheduler For Systems](./the_default_scheduler_for_systems.md), we added 10 systems.
+For example, in our tutorial for [The Default Scheduler For Systems](tutorial/the_default_scheduler_for_systems.md), we added 10 systems.
 
 ```rust
 fn main() {
@@ -137,6 +137,6 @@ PostUpdate
 Last
 ```
 
-:arrow_right:  Next: [Faster Compile Time](./faster_compile_time.md)
+:arrow_right:  Next: [Faster Compile Time](tutorial/faster_compile_time.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

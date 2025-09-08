@@ -64,6 +64,6 @@ By using [SystemSet](https://docs.rs/bevy/latest/bevy/ecs/schedule/trait.SystemS
 configure_sets(Startup, (MySet::B, MySet::A).chain())
 ```
 
-:arrow_right:  Next: [Resources - They Are Singleton Structs](./they_are_singleton_structs.md)
+:arrow_right:  Next: [Resources - They Are Singleton Structs](tutorial/they_are_singleton_structs.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

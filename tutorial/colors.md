@@ -63,11 +63,11 @@ fn setup(
 
 Result:
 
-![Colors](./pic/colors.png)
+![Colors](tutorial/pic/colors.png)
 
 We use [Circle](https://docs.rs/bevy/latest/bevy/prelude/shape/struct.Circle.html) in the example.
 The method applies to other shapes.
 
-:arrow_right:  Next: [Textures](./textures.md)
+:arrow_right:  Next: [Textures](tutorial/textures.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

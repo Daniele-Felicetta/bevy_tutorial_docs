@@ -37,8 +37,8 @@ We use `windows.single_mut()` to get the [Window](https://docs.rs/bevy/latest/be
 
 Result:
 
-![Changing The Window After Initialization](./pic/changing_the_window_after_initialization.png)
+![Changing The Window After Initialization](tutorial/pic/changing_the_window_after_initialization.png)
 
-:arrow_right:  Next: [Low-Power Windows](./low_power_windows.md)
+:arrow_right:  Next: [Low-Power Windows](tutorial/low_power_windows.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

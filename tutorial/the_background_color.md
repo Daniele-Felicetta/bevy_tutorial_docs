@@ -36,7 +36,7 @@ fn setup(mut commands: Commands) {
 
 Result:
 
-![The Background Color](./pic/the_background_color.png)
+![The Background Color](tutorial/pic/the_background_color.png)
 
 When we use [Camera2dBundle::default()](https://docs.rs/bevy/latest/bevy/core_pipeline/core_2d/struct.Camera2dBundle.html#method.default), the camera consults a resource [ClearColor](https://docs.rs/bevy/latest/bevy/render/camera/struct.ClearColor.html) for the background color.
 Therefore, we can also replace the resource [ClearColor](https://docs.rs/bevy/latest/bevy/render/camera/struct.ClearColor.html) for changing the background color.
@@ -65,6 +65,6 @@ fn setup(mut commands: Commands) {
 
 The code produces the same result.
 
-:arrow_right:  Next: [Displaying Images](./displaying_images.md)
+:arrow_right:  Next: [Displaying Images](tutorial/displaying_images.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

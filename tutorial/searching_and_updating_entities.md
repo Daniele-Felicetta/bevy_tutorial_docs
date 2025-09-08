@@ -119,6 +119,6 @@ HP: 0
 
 ```
 
-:arrow_right:  Next: [Searching And Removing Entities](./searching_and_removing_entities.md)
+:arrow_right:  Next: [Searching And Removing Entities](tutorial/searching_and_removing_entities.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

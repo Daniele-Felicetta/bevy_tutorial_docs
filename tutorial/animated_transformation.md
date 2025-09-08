@@ -162,18 +162,18 @@ fn setup(
 
 When the app starts:
 
-![Animated Transformation 1](./pic/animated_transformation_1.png)
+![Animated Transformation 1](tutorial/pic/animated_transformation_1.png)
 
 At the 1st second:
 
-![Animated Transformation 2](./pic/animated_transformation_2.png)
+![Animated Transformation 2](tutorial/pic/animated_transformation_2.png)
 
 At the 2nd second:
 
-![Animated Transformation 3](./pic/animated_transformation_3.png)
+![Animated Transformation 3](tutorial/pic/animated_transformation_3.png)
 
 For [keyframes](https://docs.rs/bevy/latest/bevy/animation/struct.VariableCurve.html#structfield.keyframes), in addition to [Keyframes::Translation](https://docs.rs/bevy/latest/bevy/animation/enum.Keyframes.html#variant.Translation), we can also use [Keyframes::Rotation](https://docs.rs/bevy/latest/bevy/animation/enum.Keyframes.html#variant.Rotation) and [Keyframes::Scale](https://docs.rs/bevy/latest/bevy/animation/enum.Keyframes.html#variant.Scale).
 
-:arrow_right:  Next: [Keyboard Input](./keyboard_input.md)
+:arrow_right:  Next: [Keyboard Input](tutorial/keyboard_input.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

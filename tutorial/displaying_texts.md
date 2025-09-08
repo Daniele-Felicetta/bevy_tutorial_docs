@@ -47,8 +47,8 @@ fn setup(mut commands: Commands) {
 
 Result:
 
-![Displaying Texts](./pic/displaying_texts.png)
+![Displaying Texts](tutorial/pic/displaying_texts.png)
 
-:arrow_right:  Next: [Font Styles](./font_styles.md)
+:arrow_right:  Next: [Font Styles](tutorial/font_styles.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

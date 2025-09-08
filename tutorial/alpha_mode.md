@@ -121,10 +121,10 @@ fn setup(
 
 Result:
 
-![Alpha Mode](./pic/alpha_mode.png)
+![Alpha Mode](tutorial/pic/alpha_mode.png)
 
 We can see from the shadow of the right sphere that the sphere is indeed transparent.
 
-:arrow_right:  Next: [Basic Fog](./basic_fog.md)
+:arrow_right:  Next: [Basic Fog](tutorial/basic_fog.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

@@ -104,8 +104,8 @@ fn setup(
 
 Result:
 
-![3D Transformation](./pic/3d_transformation.png)
+![3D Transformation](tutorial/pic/3d_transformation.png)
 
-:arrow_right:  Next: [Hierarchical Transformation](./hierarchical_transformation.md)
+:arrow_right:  Next: [Hierarchical Transformation](tutorial/hierarchical_transformation.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

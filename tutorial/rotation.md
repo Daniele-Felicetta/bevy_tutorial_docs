@@ -55,8 +55,8 @@ fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
 
 Result:
 
-![Rotation](./pic/rotation.png)
+![Rotation](tutorial/pic/rotation.png)
 
-:arrow_right:  Next: [Scale](./scale.md)
+:arrow_right:  Next: [Scale](tutorial/scale.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

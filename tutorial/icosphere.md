@@ -82,8 +82,8 @@ fn setup(
 
 Result:
 
-![Icosphere](./pic/icosphere.png)
+![Icosphere](tutorial/pic/icosphere.png)
 
-:arrow_right:  Next: [Cylinder](./cylinder.md)
+:arrow_right:  Next: [Cylinder](tutorial/cylinder.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

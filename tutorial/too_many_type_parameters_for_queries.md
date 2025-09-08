@@ -180,6 +180,6 @@ Name: Final boss, HP: 99999
 
 [QueryData](https://docs.rs/bevy/latest/bevy/ecs/query/derive.QueryData.html) is similar to [Bundle](https://docs.rs/bevy/latest/bevy/ecs/bundle/derive.Bundle.html), yet [Bundle](https://docs.rs/bevy/latest/bevy/ecs/bundle/derive.Bundle.html) is for spawning entities and [QueryData](https://docs.rs/bevy/latest/bevy/ecs/query/derive.QueryData.html) is for querying.
 
-:arrow_right:  Next: [Too Many Parameters For Systems](./too_many_parameters_for_systems.md)
+:arrow_right:  Next: [Too Many Parameters For Systems](tutorial/too_many_parameters_for_systems.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

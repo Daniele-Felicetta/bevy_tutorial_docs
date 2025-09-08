@@ -129,8 +129,8 @@ fn setup(
 
 Result:
 
-![Diffuse Transmission](./pic/diffuse_transmission.png)
+![Diffuse Transmission](tutorial/pic/diffuse_transmission.png)
 
-:arrow_right:  Next: [Specular Transmission](./specular_transmission.md)
+:arrow_right:  Next: [Specular Transmission](tutorial/specular_transmission.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

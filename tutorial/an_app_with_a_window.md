@@ -16,8 +16,8 @@ fn main() {
 
 Result:
 
-![An App With A Window](./pic/an_app_with_a_window.png)
+![An App With A Window](tutorial/pic/an_app_with_a_window.png)
 
-:arrow_right:  Next: [The Default Scheduler For Windowed App](./the_default_scheduler_for_windowed_app.md)
+:arrow_right:  Next: [The Default Scheduler For Windowed App](tutorial/the_default_scheduler_for_windowed_app.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

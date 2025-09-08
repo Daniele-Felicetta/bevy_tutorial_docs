@@ -129,6 +129,6 @@ Name: Wizard 2, HP: 30
 
 ```
 
-:arrow_right:  Next: [Searching For The Only Entity](./searching_for_the_only_entity.md)
+:arrow_right:  Next: [Searching For The Only Entity](tutorial/searching_for_the_only_entity.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

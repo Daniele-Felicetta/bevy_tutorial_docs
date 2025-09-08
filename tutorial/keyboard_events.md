@@ -123,16 +123,16 @@ fn handle_keys(
 
 When the app just starts:
 
-![Keyboard Events 1](./pic/keyboard_just_input_1.png)
+![Keyboard Events 1](tutorial/pic/keyboard_just_input_1.png)
 
 After the key `space` pressed at the first time:
 
-![Keyboard Events 2](./pic/keyboard_just_input_2.png)
+![Keyboard Events 2](tutorial/pic/keyboard_just_input_2.png)
 
 In the code, we print a string in the loop of `events.read()`.
 We can see (in the console) that the loop is not executed if there is no key touched.
 In some cases, the method of [EventReader](https://docs.rs/bevy/latest/bevy/ecs/event/struct.EventReader.html) is more efficient than the method of [Input](https://docs.rs/bevy/0.12.1/bevy/input/struct.Input.html).
 
-:arrow_right:  Next: [Mouse Input](./mouse_input.md)
+:arrow_right:  Next: [Mouse Input](tutorial/mouse_input.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

@@ -127,8 +127,8 @@ fn setup(
 
 Result:
 
-![Metallic](./pic/metallic.png)
+![Metallic](tutorial/pic/metallic.png)
 
-:arrow_right:  Next: [Perceptual Roughness](./perceptual_roughness.md)
+:arrow_right:  Next: [Perceptual Roughness](tutorial/perceptual_roughness.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

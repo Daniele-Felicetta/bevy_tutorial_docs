@@ -56,7 +56,7 @@ fn setup(mut commands: Commands) {
 
 Result:
 
-![Text Positions](./pic/text_positions_1.png)
+![Text Positions](tutorial/pic/text_positions_1.png)
 
 Combine with the [Window](https://docs.rs/bevy/latest/bevy/window/struct.Window.html) component, we can place our text on the bottom-right corner of the window.
 
@@ -113,8 +113,8 @@ As the variable can be treated as a reference, we can use the `*` symbol to chan
 
 Result:
 
-![Text Positions 2](./pic/text_positions_2.png)
+![Text Positions 2](tutorial/pic/text_positions_2.png)
 
-:arrow_right:  Next: [Circles](./circles.md)
+:arrow_right:  Next: [Circles](tutorial/circles.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

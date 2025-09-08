@@ -76,8 +76,8 @@ fn setup(
 
 Result:
 
-![Point Light](./pic/point_light.png)
+![Point Light](tutorial/pic/point_light.png)
 
-:arrow_right:  Next: [Spot Light](./spot_light.md)
+:arrow_right:  Next: [Spot Light](tutorial/spot_light.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)

@@ -35,8 +35,8 @@ The [new](https://docs.rs/bevy/latest/bevy/prelude/shape/struct.RegularPolygon.h
 
 Result:
 
-![Regular Polygons](./pic/regular_polygons.png)
+![Regular Polygons](tutorial/pic/regular_polygons.png)
 
-:arrow_right:  Next: [Shapes With Transformation](./shapes_with_transformation.md)
+:arrow_right:  Next: [Shapes With Transformation](tutorial/shapes_with_transformation.md)
 
-:blue_book: Back: [Table of contents](./../README.md)
+:blue_book: Back: [Table of contents](/)
