@@ -1,4 +1,9 @@
-# Simple Bevy Tutorial
+# BEVY TUTORIAL DOCUMENTATION
+
+This documentation originates from https://github.com/fogarecious/bevy_tutorial. I have created it to facilitate reading and published it on the web with docsify.
+
+
+https://elfuego.cloud/bevy_tutorial
 
 [Bevy](https://bevyengine.org/) is a game engine built in [Rust](https://www.rust-lang.org/).
 This tutorial serves as a quick start for [Bevy](https://bevyengine.org/).
