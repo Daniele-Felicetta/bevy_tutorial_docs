@@ -5,247 +5,254 @@
   <meta charset="utf-8">
   <title>Bevy Tutorials</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
 
   <!-- <link rel="stylesheet" href="styles.css"> -->
   <style>
-      :root {
-    --sidebar-width: 320px;
-    --sidebar-bg-color: #2d3748;
-    --sidebar-header-bg: #1a202c;
-    --sidebar-link-color: #e2e8f0;
-    --sidebar-link-hover: #f17f0d;
-    --sidebar-border-color: #4a5568;
-    --search-highlight: #f17f0d;
-  }
-
-  .content{
-    left:200px;
-  }
-@media screen and (max-width: 768px) {
-    body.close .content {
-        transform: translateX(200px);
+    :root {
+      --sidebar-width: 320px;
+      --sidebar-bg-color: #2d3748;
+      --sidebar-header-bg: #1a202c;
+      --sidebar-link-color: #e2e8f0;
+      --sidebar-link-hover: #f17f0d;
+      --sidebar-border-color: #4a5568;
+      --search-highlight: #f17f0d;
     }
-    
-    body.close .sidebar-toggle {
+
+    .content {
+      left: 200px;
+    }
+
+    @media screen and (max-width: 768px) {
+      body.close .content {
+        transform: translateX(200px);
+      }
+
+      body.close .sidebar-toggle {
         background-color: rgba(205, 84, 51, 0.251);
         transition: 1s background-color;
         width: 200px;
         padding: 10px;
+      }
     }
-  }
-  /* Sidebar migliorata */
-  .sidebar {
-    background-color: var(--sidebar-bg-color) !important;
-    border-right: 1px solid var(--sidebar-border-color);
-    padding-top: 0;
-  }
 
-  /* Header della sidebar */
-  .app-name {
-    padding: 20px;
-    margin: 0;
-    background-color: var(--sidebar-header-bg);
-    text-align: center;
-    border-bottom: 1px solid var(--sidebar-border-color);
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  }
+    /* Sidebar migliorata */
+    .sidebar {
+      background-color: var(--sidebar-bg-color) !important;
+      border-right: 1px solid var(--sidebar-border-color);
+      padding-top: 0;
+    }
 
-  .app-name-link {
-    color: #fff !important;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
+    /* Header della sidebar */
+    .app-name {
+      padding: 20px;
+      margin: 0;
+      background-color: var(--sidebar-header-bg);
+      text-align: center;
+      border-bottom: 1px solid var(--sidebar-border-color);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
 
-  /* Stile per la ricerca */
-  .search {
-    padding: 15px 20px;
-    background-color: var(--sidebar-header-bg);
-    border-bottom: 1px solid var(--sidebar-border-color);
-    position: sticky;
-    top: 80px;
-    z-index: 10;
-  }
+    .app-name-link {
+      color: #fff !important;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
 
-  .search input {
-    width: 100%;
-    padding: 10px 15px;
-    border-radius: 20px;
-    border: 1px solid var(--sidebar-border-color);
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-  }
+    /* Stile per la ricerca */
+    .search {
+      padding: 15px 20px;
+      background-color: var(--sidebar-header-bg);
+      border-bottom: 1px solid var(--sidebar-border-color);
+      position: sticky;
+      top: 80px;
+      z-index: 10;
+    }
 
-  .search input::placeholder {
-    color: #a0aec0;
-  }
+    .search input {
+      width: 100%;
+      padding: 10px 15px;
+      border-radius: 20px;
+      border: 1px solid var(--sidebar-border-color);
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
 
-  /* Risultati di ricerca */
-  .search-results {
-    padding: 10px 0;
-  }
+    .search input::placeholder {
+      color: #a0aec0;
+    }
 
-  .search-results .search-result-item {
-    padding: 8px 20px 8px 40px;
-    color: var(--sidebar-link-color);
-    cursor: pointer;
-    transition: all 0.2s;
-    position: relative;
-  }
+    /* Risultati di ricerca */
+    .search-results {
+      padding: 10px 0;
+    }
 
-  .search-results .search-result-item:hover {
-    color: var(--sidebar-link-hover);
-    background-color: rgba(255, 255, 255, 0.05);
-  }
+    .search-results .search-result-item {
+      padding: 8px 20px 8px 40px;
+      color: var(--sidebar-link-color);
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+    }
 
-  .search-results .search-result-item::before {
-    content: "🔍";
-    position: absolute;
-    left: 20px;
-  }
+    .search-results .search-result-item:hover {
+      color: var(--sidebar-link-hover);
+      background-color: rgba(255, 255, 255, 0.05);
+    }
 
-  .search-results .search-result-highlight {
-    color: var(--search-highlight);
-    font-weight: bold;
-  }
-  .sidebar{
-    width:200px;
-    font-size: smaller;
-  }
-  /* Sidebar nav */
-  .sidebar-nav {
-    padding: 0;
-  }
+    .search-results .search-result-item::before {
+      content: "🔍";
+      position: absolute;
+      left: 20px;
+    }
 
-  .sidebar-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+    .search-results .search-result-highlight {
+      color: var(--search-highlight);
+      font-weight: bold;
+    }
 
-  .sidebar-nav li {
-    margin: 0;
-    border-bottom: 1px solid var(--sidebar-border-color);
-  }
+    .sidebar {
+      width: 200px;
+      font-size: smaller;
+    }
 
-  .sidebar-nav a {
-    color: var(--sidebar-link-color) !important;
-    text-decoration: none;
-    padding: 2px;
-    display: block;
-    transition: all 0.3s ease;
-    position: relative;
-    font-weight: 500;
-  }
+    /* Sidebar nav */
+    .sidebar-nav {
+      padding: 0;
+    }
+
+    .sidebar-nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .sidebar-nav li {
+      margin: 0;
+      border-bottom: 1px solid var(--sidebar-border-color);
+    }
+
+    .sidebar-nav a {
+      color: var(--sidebar-link-color) !important;
+      text-decoration: none;
+      padding: 2px;
+      display: block;
+      transition: all 0.3s ease;
+      position: relative;
+      font-weight: 500;
+    }
 
 
 
-  .sidebar-nav a:hover {
-    background-color: rgba(241, 127, 13, 0.1);
-    color: var(--sidebar-link-hover) !important;
-    padding-left: 5px;
-  }
+    .sidebar-nav a:hover {
+      background-color: rgba(241, 127, 13, 0.1);
+      color: var(--sidebar-link-hover) !important;
+      padding-left: 5px;
+    }
 
-  .sidebar-nav a:hover::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 4px;
-    background-color: var(--sidebar-link-hover);
-  }
+    .sidebar-nav a:hover::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 4px;
+      background-color: var(--sidebar-link-hover);
+    }
 
-  .sidebar-nav a.active {
-    background-color: rgba(241, 127, 13, 0.15);
-    color: var(--sidebar-link-hover) !important;
-    font-weight: 600;
-  }
+    .sidebar-nav a.active {
+      background-color: rgba(241, 127, 13, 0.15);
+      color: var(--sidebar-link-hover) !important;
+      font-weight: 600;
+    }
 
-  .sidebar-nav a.active::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 4px;
-    background-color: var(--sidebar-link-hover);
-  }
+    .sidebar-nav a.active::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 4px;
+      background-color: var(--sidebar-link-hover);
+    }
 
-  /* Sottomenu annidati */
-  .sidebar-nav ul ul {
-    background-color: rgba(0, 0, 0, 0.1);
-    padding-left:5px;
-  }
+    /* Sottomenu annidati */
+    .sidebar-nav ul ul {
+      background-color: rgba(0, 0, 0, 0.1);
+      padding-left: 5px;
+    }
 
-  .sidebar-nav ul ul a {
-    padding-left: 10px;
-    font-size: 0.95em;
-  }
+    .sidebar-nav ul ul a {
+      padding-left: 10px;
+      font-size: 0.95em;
+    }
 
-  .sidebar-nav ul ul ul a {
-    padding-left: 15px;
-  }
+    .sidebar-nav ul ul ul a {
+      padding-left: 15px;
+    }
 
-  /* Icone */
-  .sidebar-nav a[data-icon]::before {
-    margin-right: 10px;
-    font-style: normal;
-    display: inline-block;
-    width: 20px;
-    text-align: center;
-  }
+    /* Icone */
+    .sidebar-nav a[data-icon]::before {
+      margin-right: 10px;
+      font-style: normal;
+      display: inline-block;
+      width: 20px;
+      text-align: center;
+    }
 
-  .sidebar-toggle span {
-    background-color: white;
-  }
-  .sidebar-toggle{
-    width: 200px;
-  }
+    .sidebar-toggle span {
+      background-color: white;
+    }
 
-  /* Stile per la sezione principale */
-  .markdown-section {
-    max-width: 900px;
-  }
+    .sidebar-toggle {
+      width: 200px;
+    }
 
-  @media only screen and (min-width: 1500px) {
-  .sidebar{
-    width:300px;
-    font-size: medium;
-  }
-}
-  /* Stile per l'header */
-  .markdown-section h1,
-  .markdown-section h2,
-  .markdown-section h3 {
-    border-bottom: 1px solid var(--sidebar-border-color);
-    padding-bottom: 10px;
-    margin-top: 30px;
-  }
+    /* Stile per la sezione principale */
+    .markdown-section {
+      max-width: 900px;
+    }
 
-  /* Transizione per i risultati di ricerca */
-  .search-results {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-  }
+    @media only screen and (min-width: 1500px) {
+      .sidebar {
+        width: 300px;
+        font-size: medium;
+      }
+    }
 
-  .search-results.active {
-    max-height: 300px;
-    overflow-y: auto;
-  }
+    /* Stile per l'header */
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3 {
+      border-bottom: 1px solid var(--sidebar-border-color);
+      padding-bottom: 10px;
+      margin-top: 30px;
+    }
 
-  /* Scrollbar personalizzata */
-  .search-results.active::-webkit-scrollbar {
-    width: 6px;
-  }
+    /* Transizione per i risultati di ricerca */
+    .search-results {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
 
-  .search-results.active::-webkit-scrollbar-thumb {
-    background-color: var(--sidebar-link-hover);
-    border-radius: 3px;
-  }
+    .search-results.active {
+      max-height: 300px;
+      overflow-y: auto;
+    }
+
+    /* Scrollbar personalizzata */
+    .search-results.active::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .search-results.active::-webkit-scrollbar-thumb {
+      background-color: var(--sidebar-link-hover);
+      border-radius: 3px;
+    }
+
     /* Stili personalizzati per l'highlighting Rust */
     .token.comment {
       color: #6a737d;
@@ -320,289 +327,15 @@
 <body>
   <div id="app"></div>
 
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-rust.min.js"></script>
   <!-- <script src="script.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 
-  <script>
-
-    window.$docsify = {
-  name: '🦀 Bevy Tutorials',
-  repo: '',
-  loadSidebar: true,
-  autoHeader: true,
-  auto2top: true,
-  subMaxLevel: 4,
-  coverpage: false,
-  notFoundPage: '404.md',
-
-  search: {
-    placeholder: '🔍 Cerca tra i tutorial...',
-    noData: '😞 Nessun risultato trovato',
-    depth: 4,
-    paths: 'auto',
-    hideOtherSidebarContent: false,
-    namespace: 'bevy-tutorials'
-  },
-
-  themeColor: '#f17f0d',
-
-  // Utilizza l'highlighting nativo di Docsify con Prism
-  highlight: function (code, lang) {
-    if (lang === 'rust') {
-      return Prism.highlight(code, Prism.languages.rust, 'rust');
-    }
-    return code;
-  },
-  
-
-  plugins: [
-    function (hook, vm) {
-      hook.doneEach(function () {
-        const app = document.getElementById('app');
-        if (app) {
-          app.classList.add('loaded');
-        }
-
-        addIconsToHeaders();
-        highlightActiveSidebarItem();
-      });
-
-      // Aggiungi gestione personalizzata della ricerca
-      hook.ready(function () {
-        initCustomSearch();
-      });
-    }
-  ],
-
-  markup: function (markdown) {
-    return markdown
-      .replace(/^## (Basic)/gm, '## 🧠 $1')
-      .replace(/^## (2D Rendering)/gm, '## 🎨 $1')
-      .replace(/^## (Input)/gm, '## ⌨️ $1')
-      .replace(/^## (States)/gm, '## 🔄 $1')
-      .replace(/^## (3D Rendering)/gm, '## 🎮 $1')
-      .replace(/^## (See Also)/gm, '## 🔗 $1')
-      .replace(/^### (.*Windows.*)/gm, '### 🪟 $1')
-      .replace(/^### (.*Images.*)/gm, '### 🖼️ $1')
-      .replace(/^### (.*Texts.*)/gm, '### 🔤 $1')
-      .replace(/^### (.*Shapes.*)/gm, '### 🔷 $1')
-      .replace(/^### (.*Keyboards.*)/gm, '### ⌨️ $1')
-      .replace(/^### (.*Mouses.*)/gm, '### 🖱️ $1')
-      .replace(/^### (.*Timers.*)/gm, '### ⏱️ $1');
-  }
-};
-
-// Inizializza la ricerca personalizzata
-function initCustomSearch() {
-  const searchInput = document.querySelector('.search input');
-  const sidebarNav = document.querySelector('.sidebar-nav');
-
-  if (!searchInput || !sidebarNav) return;
-
-  // Crea un contenitore per i risultati della ricerca
-  const searchResultsContainer = document.createElement('div');
-  searchResultsContainer.className = 'search-results';
-  sidebarNav.parentNode.insertBefore(searchResultsContainer, sidebarNav);
-
-  // Gestisci l'input della ricerca
-  searchInput.addEventListener('input', function (e) {
-    const query = e.target.value.trim();
-
-    if (query.length > 2) {
-      // Simula risultati di ricerca (nella realtà questi verrebbero da Docsify)
-      showSearchResults(query, searchResultsContainer);
-      sidebarNav.style.display = 'none';
-    } else {
-      hideSearchResults(searchResultsContainer);
-      sidebarNav.style.display = 'block';
-    }
-  });
-
-  // Gestisci il click fuori dalla ricerca
-  document.addEventListener('click', function (e) {
-    if (!e.target.closest('.search') && !e.target.closest('.search-results')) {
-      hideSearchResults(searchResultsContainer);
-      sidebarNav.style.display = 'block';
-    }
-  });
-}
-function highlightActiveSidebarItem() {
-  // Ottieni il percorso corrente
-  const currentPath = window.location.hash.replace('#/', '') || 'README.md';
-  
-  // Trova tutti i link nella sidebar
-  const sidebarLinks = document.querySelectorAll('.sidebar-nav a');
-  
-  // Rimuovi la classe 'active' da tutti i link
-  sidebarLinks.forEach(link => {
-    link.classList.remove('active');
-  });
-  
-  // Trova il link corrispondente al percorso corrente e aggiungi la classe 'active'
-  sidebarLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href && href.includes(currentPath)) {
-      link.classList.add('active');
-      
-      // Espandi i genitori se sono elementi annidati
-      let parent = link.parentElement;
-      while (parent && parent !== document.querySelector('.sidebar-nav')) {
-        if (parent.classList.contains('collapse')) {
-          parent.classList.add('open');
-        }
-        parent = parent.parentElement;
-      }
-    }
-  });
-}
-// Mostra i risultati della ricerca
-function showSearchResults(query, container) {
-  // Simulazione di risultati (nella realtà questi verrebbero dal motore di ricerca di Docsify)
-  const results = [
-    { title: 'Introduzione a Bevy', path: 'introduzione.md', excerpt: 'Bevy è un motore di gioco in Rust...' },
-    { title: 'Configurazione Windows', path: 'configurazione-windows.md', excerpt: 'Per configurare Bevy su Windows...' },
-    { title: 'Gestione Input', path: 'input.md', excerpt: 'La gestione degli input in Bevy...' },
-    { title: 'Rendering 3D', path: 'rendering-3d.md', excerpt: 'Come funziona il rendering 3D in Bevy...' },
-    { title: 'Gestione Stati', path: 'stati.md', excerpt: 'La gestione degli stati dell\'applicazione...' }
-  ];
-
-  // Filtra i risultati in base alla query (simulato)
-  const filteredResults = results.filter(result =>
-    result.title.toLowerCase().includes(query.toLowerCase()) ||
-    result.excerpt.toLowerCase().includes(query.toLowerCase())
-  );
-
-  // Genera l'HTML dei risultati
-  container.innerHTML = '';
-
-  if (filteredResults.length > 0) {
-    filteredResults.forEach(result => {
-      const resultElement = document.createElement('div');
-      resultElement.className = 'search-result-item';
-
-      // Evidenzia la query nel titolo
-      const highlightedTitle = highlightText(result.title, query);
-      const highlightedExcerpt = highlightText(result.excerpt, query);
-
-      resultElement.innerHTML = `
-                        <div><strong>${highlightedTitle}</strong></div>
-                        <div style="font-size: 0.8em; margin-top: 5px; color: #a0aec0;">${highlightedExcerpt}</div>
-                    `;
-
-      // Aggiungi il click per navigare al risultato
-      resultElement.addEventListener('click', function () {
-        window.location.hash = '#/' + result.path;
-        hideSearchResults(container);
-        document.querySelector('.sidebar-nav').style.display = 'block';
-      });
-
-      container.appendChild(resultElement);
-    });
-
-    container.classList.add('active');
-  } else {
-    container.innerHTML = '<div class="search-result-item">Nessun risultato trovato</div>';
-    container.classList.add('active');
-  }
-}
-
-// Nascondi i risultati della ricerca
-function hideSearchResults(container) {
-  container.classList.remove('active');
-  setTimeout(() => {
-    container.innerHTML = '';
-  }, 300);
-}
-
-// Evidenzia il testo della query nei risultati
-function highlightText(text, query) {
-  if (!query) return text;
-
-  const regex = new RegExp(`(${query})`, 'gi');
-  return text.replace(regex, '<span class="search-result-highlight">$1</span>');
-}
-
-// Funzione per aggiungere icone alle intestazioni
-function addIconsToHeaders() {
-  const headers = document.querySelectorAll('.markdown-section h2, .markdown-section h3');
-  const iconMap = {
-    'Basic': '🧠',
-    '2D Rendering': '🎨',
-    'Input': '⌨️',
-    'States': '🔄',
-    '3D Rendering': '🎮',
-    'See Also': '🔗',
-    'Windows': '🪟',
-    'Images': '🖼️',
-    'Texts': '🔤',
-    'Shapes': '🔷',
-    'Keyboards': '⌨️',
-    'Mouses': '🖱️',
-    'Timers': '⏱️'
-  };
-
-  headers.forEach(header => {
-    const text = header.textContent;
-    for (const [key, icon] of Object.entries(iconMap)) {
-      if (text.includes(key)) {
-        if (!header.innerHTML.includes(icon)) {
-          header.innerHTML = icon + ' ' + header.innerHTML;
-        }
-        break;
-      }
-    }
-  });
-}
-document.addEventListener('DOMContentLoaded', function () {
-  // Aggiungi icone alla sidebar
-  function addSidebarIcons() {
-    const sidebarLinks = document.querySelectorAll('.sidebar-nav a');
-    const iconMap = {
-      'Basic': '🧠',
-      '2D Rendering': '🎨',
-      'Input': '⌨️',
-      'States': '🔄',
-      '3D Rendering': '🎮',
-      'See Also': '🔗',
-      'Windows': '🪟',
-      'Images': '🖼️',
-      'Texts': '🔤',
-      'Shapes': '🔷',
-      'Keyboards': '⌨️',
-      'Mouses': '🖱️',
-      'Timers': '⏱️'
-    };
-
-    sidebarLinks.forEach(link => {
-      const text = link.textContent;
-      for (const [key, icon] of Object.entries(iconMap)) {
-        if (text.includes(key) && !link.innerHTML.includes(icon)) {
-          link.innerHTML = icon + ' ' + link.innerHTML;
-          break;
-        }
-      }
-    });
-  }
-
-  // Osserva cambiamenti nella sidebar per aggiungere icone
-  const observer = new MutationObserver(function (mutations) {
-    mutations.forEach(function (mutation) {
-      if (mutation.addedNodes.length) {
-        addSidebarIcons();
-      }
-    });
-  });
-
-  const sidebar = document.querySelector('.sidebar-nav');
-  if (sidebar) {
-    observer.observe(sidebar, { childList: true, subtree: true });
-    // Aspetta che la sidebar sia caricata
-    setTimeout(addSidebarIcons, 1000);
-  }
-});
-  </script>
+  <script src="script.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </body>
 
 </html>

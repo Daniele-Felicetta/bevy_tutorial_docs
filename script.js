@@ -19,7 +19,6 @@ window.$docsify = {
 
   themeColor: '#f17f0d',
 
-  // Utilizza l'highlighting nativo di Docsify con Prism
   highlight: function (code, lang) {
     if (lang === 'rust') {
       return Prism.highlight(code, Prism.languages.rust, 'rust');
@@ -27,20 +26,19 @@ window.$docsify = {
     return code;
   },
 
+
   plugins: [
     function (hook, vm) {
       hook.doneEach(function () {
-        // Aggiungi icona di caricamento
         const app = document.getElementById('app');
         if (app) {
           app.classList.add('loaded');
         }
 
-        // Aggiungi icona alle intestazioni
         addIconsToHeaders();
+        highlightActiveSidebarItem();
       });
 
-      // Aggiungi gestione personalizzata della ricerca
       hook.ready(function () {
         initCustomSearch();
       });
@@ -65,24 +63,20 @@ window.$docsify = {
   }
 };
 
-// Inizializza la ricerca personalizzata
 function initCustomSearch() {
   const searchInput = document.querySelector('.search input');
   const sidebarNav = document.querySelector('.sidebar-nav');
 
   if (!searchInput || !sidebarNav) return;
 
-  // Crea un contenitore per i risultati della ricerca
   const searchResultsContainer = document.createElement('div');
   searchResultsContainer.className = 'search-results';
   sidebarNav.parentNode.insertBefore(searchResultsContainer, sidebarNav);
 
-  // Gestisci l'input della ricerca
   searchInput.addEventListener('input', function (e) {
     const query = e.target.value.trim();
 
     if (query.length > 2) {
-      // Simula risultati di ricerca (nella realtà questi verrebbero da Docsify)
       showSearchResults(query, searchResultsContainer);
       sidebarNav.style.display = 'none';
     } else {
@@ -91,7 +85,6 @@ function initCustomSearch() {
     }
   });
 
-  // Gestisci il click fuori dalla ricerca
   document.addEventListener('click', function (e) {
     if (!e.target.closest('.search') && !e.target.closest('.search-results')) {
       hideSearchResults(searchResultsContainer);
@@ -99,10 +92,31 @@ function initCustomSearch() {
     }
   });
 }
+function highlightActiveSidebarItem() {
+  const currentPath = window.location.hash.replace('#/', '') || 'README.md';
 
-// Mostra i risultati della ricerca
+  const sidebarLinks = document.querySelectorAll('.sidebar-nav a');
+
+  sidebarLinks.forEach(link => {
+    link.classList.remove('active');
+  });
+
+  sidebarLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (href && href.includes(currentPath)) {
+      link.classList.add('active');
+
+      let parent = link.parentElement;
+      while (parent && parent !== document.querySelector('.sidebar-nav')) {
+        if (parent.classList.contains('collapse')) {
+          parent.classList.add('open');
+        }
+        parent = parent.parentElement;
+      }
+    }
+  });
+}
 function showSearchResults(query, container) {
-  // Simulazione di risultati (nella realtà questi verrebbero dal motore di ricerca di Docsify)
   const results = [
     { title: 'Introduzione a Bevy', path: 'introduzione.md', excerpt: 'Bevy è un motore di gioco in Rust...' },
     { title: 'Configurazione Windows', path: 'configurazione-windows.md', excerpt: 'Per configurare Bevy su Windows...' },
@@ -111,13 +125,11 @@ function showSearchResults(query, container) {
     { title: 'Gestione Stati', path: 'stati.md', excerpt: 'La gestione degli stati dell\'applicazione...' }
   ];
 
-  // Filtra i risultati in base alla query (simulato)
   const filteredResults = results.filter(result =>
     result.title.toLowerCase().includes(query.toLowerCase()) ||
     result.excerpt.toLowerCase().includes(query.toLowerCase())
   );
 
-  // Genera l'HTML dei risultati
   container.innerHTML = '';
 
   if (filteredResults.length > 0) {
@@ -125,16 +137,14 @@ function showSearchResults(query, container) {
       const resultElement = document.createElement('div');
       resultElement.className = 'search-result-item';
 
-      // Evidenzia la query nel titolo
       const highlightedTitle = highlightText(result.title, query);
       const highlightedExcerpt = highlightText(result.excerpt, query);
 
       resultElement.innerHTML = `
-                        <div><strong>${highlightedTitle}</strong></div>
-                        <div style="font-size: 0.8em; margin-top: 5px; color: #a0aec0;">${highlightedExcerpt}</div>
-                    `;
+            <div><strong>${highlightedTitle}</strong></div>
+            <div style="font-size: 0.8em; margin-top: 5px; color: #a0aec0;">${highlightedExcerpt}</div>
+          `;
 
-      // Aggiungi il click per navigare al risultato
       resultElement.addEventListener('click', function () {
         window.location.hash = '#/' + result.path;
         hideSearchResults(container);
@@ -151,7 +161,6 @@ function showSearchResults(query, container) {
   }
 }
 
-// Nascondi i risultati della ricerca
 function hideSearchResults(container) {
   container.classList.remove('active');
   setTimeout(() => {
@@ -159,7 +168,6 @@ function hideSearchResults(container) {
   }, 300);
 }
 
-// Evidenzia il testo della query nei risultati
 function highlightText(text, query) {
   if (!query) return text;
 
@@ -167,7 +175,6 @@ function highlightText(text, query) {
   return text.replace(regex, '<span class="search-result-highlight">$1</span>');
 }
 
-// Funzione per aggiungere icone alle intestazioni
 function addIconsToHeaders() {
   const headers = document.querySelectorAll('.markdown-section h2, .markdown-section h3');
   const iconMap = {
@@ -199,7 +206,6 @@ function addIconsToHeaders() {
   });
 }
 document.addEventListener('DOMContentLoaded', function () {
-  // Aggiungi icone alla sidebar
   function addSidebarIcons() {
     const sidebarLinks = document.querySelectorAll('.sidebar-nav a');
     const iconMap = {
@@ -229,7 +235,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Osserva cambiamenti nella sidebar per aggiungere icone
   const observer = new MutationObserver(function (mutations) {
     mutations.forEach(function (mutation) {
       if (mutation.addedNodes.length) {
@@ -241,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const sidebar = document.querySelector('.sidebar-nav');
   if (sidebar) {
     observer.observe(sidebar, { childList: true, subtree: true });
-    // Aspetta che la sidebar sia caricata
+
     setTimeout(addSidebarIcons, 1000);
   }
 });
