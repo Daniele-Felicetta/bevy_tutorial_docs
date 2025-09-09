@@ -355,18 +355,18 @@
     }
     return code;
   },
+  
 
   plugins: [
     function (hook, vm) {
       hook.doneEach(function () {
-        // Aggiungi icona di caricamento
         const app = document.getElementById('app');
         if (app) {
           app.classList.add('loaded');
         }
 
-        // Aggiungi icona alle intestazioni
         addIconsToHeaders();
+        highlightActiveSidebarItem();
       });
 
       // Aggiungi gestione personalizzata della ricerca
@@ -428,7 +428,35 @@ function initCustomSearch() {
     }
   });
 }
-
+function highlightActiveSidebarItem() {
+  // Ottieni il percorso corrente
+  const currentPath = window.location.hash.replace('#/', '') || 'README.md';
+  
+  // Trova tutti i link nella sidebar
+  const sidebarLinks = document.querySelectorAll('.sidebar-nav a');
+  
+  // Rimuovi la classe 'active' da tutti i link
+  sidebarLinks.forEach(link => {
+    link.classList.remove('active');
+  });
+  
+  // Trova il link corrispondente al percorso corrente e aggiungi la classe 'active'
+  sidebarLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (href && href.includes(currentPath)) {
+      link.classList.add('active');
+      
+      // Espandi i genitori se sono elementi annidati
+      let parent = link.parentElement;
+      while (parent && parent !== document.querySelector('.sidebar-nav')) {
+        if (parent.classList.contains('collapse')) {
+          parent.classList.add('open');
+        }
+        parent = parent.parentElement;
+      }
+    }
+  });
+}
 // Mostra i risultati della ricerca
 function showSearchResults(query, container) {
   // Simulazione di risultati (nella realtà questi verrebbero dal motore di ricerca di Docsify)
